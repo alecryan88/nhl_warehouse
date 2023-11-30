@@ -1,0 +1,3 @@
+project_name: nhl-extract
+lambda_runtime: python3.11
+schedule: "cron(0 10 * * ? *)"
