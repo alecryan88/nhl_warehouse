@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: nhl_api
+    database: nhl_extract  
+    schema: dev  
+    tables:
+      - name: nhl_extract
